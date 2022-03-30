@@ -1,0 +1,15 @@
+body { font-family: 'InterVariable', sans-serif; }
+body { font-family: 'InterVariable', sans-serif; }
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: 'InterVariable', sans-serif;
+    font-feature-settings: "tnum" 1,"ss02" 1,"cv11" 1;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
